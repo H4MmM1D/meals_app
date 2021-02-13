@@ -18,16 +18,6 @@ class CategoryItem extends StatelessWidget {
       CategoryMealsScreen.routeName,
       arguments: {'id': categoryId, 'title': title},
     );
-    // Navigator.of(ctx).push(
-    //   MaterialPageRoute(
-    //     builder: (_) {
-    //       return CategoryMealsScreen(
-    //         categoryId,
-    //         title,
-    //       );
-    //     },
-    //   ),
-    // );
   }
 
   @override
