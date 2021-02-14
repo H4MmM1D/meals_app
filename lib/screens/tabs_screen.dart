@@ -12,6 +12,7 @@ class _TabsScreenState extends State<TabsScreen> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
+      initialIndex: 0,
       length: 2, //one for all categories and the other for the favorites
       child: Scaffold(
         appBar: AppBar(
